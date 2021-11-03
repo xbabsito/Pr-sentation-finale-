@@ -1,0 +1,48 @@
+h1 {
+font-size: 50px;
+color: orange;
+font-family: arial;
+	border: 2px solid;
+    margin: 40px;
+    padding: 10px;
+}
+
+h2 {
+	font-size: 30px;
+	line-height: 2;
+}
+
+.toto {
+	color: yellow;
+}
+
+.rs {
+	color: yellow;
+	
+}
+
+img {
+	width: 370px;
+	border-radius: 270px ;
+}
+
+body {
+	text-align: center;
+	background-color: black;
+	color:#e12ce1;
+	font-size: 25px;
+	line-height: 1.5;
+}
+
+.boite {
+border-bottom: 1px solid #e12ce1;
+}
+
+
+footer {
+	line-height: 1.5;
+	margin: 40px;
+	color: red;
+}
+	
+

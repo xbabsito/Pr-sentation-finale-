@@ -1,0 +1,92 @@
+.container {
+	border: solid red 2px;
+	margin: 5px;
+	padding: 20px;
+}
+
+.boite1 {
+	border: solid violet 2px;
+	margin: 5px;
+	padding: 10px;
+}
+
+.boite2 {
+	border: solid blue 2px;
+	margin: 5px;
+	padding: 10px;
+}
+
+.boite3 {
+	border: solid yellow 2px;
+	margin: 5px;
+	padding: 10px;
+}
+
+body {
+
+	background-color: lightpink;
+}
+
+.containerflexbox {
+
+	justify-content: space-around;
+}
+
+.img_escargot {
+	width: 200px;
+	justify-content: center;
+
+}
+
+.container_escargot {
+	justify-content: center;
+
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  text-align: center;
+}
+
+.one {
+  grid-column: 2/4;
+  grid-row: 1;
+  border: solid black;
+  font-size:20px ;
+  border-radius: 10px;
+  
+}
+.two {
+  grid-column: 4/6;
+  grid-row: 1;
+  border: solid black;
+  font-size: 20px;
+  border-radius: 10px;
+}
+.three {
+  grid-column:3;
+  grid-row:2;
+  border: solid black;
+  border-radius: 10px;
+
+}
+img {
+  width: 90px;
+}
+
+.four {
+  grid-column: 4;
+  grid-row: 2;
+  border: solid black;
+  border-radius: 10px;
+}
+.five {
+  grid-column: 3/5;
+  grid-row: 3;
+  border: solid black;
+  border-radius: 10px;
+  
+}
